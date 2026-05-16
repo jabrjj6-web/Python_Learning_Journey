@@ -1,0 +1,10 @@
+print("| welcome to calculator |\n ")
+number1 = float(input("first numbr : "))
+number2 = float(input("secnd numbr : "))
+print("| ---------------------- |")
+
+print("Addin " + str(number1 + number2))
+print("sudtract " + str(number1 - number2))
+print("multiply " + str(number1 * number2))
+print("divide " + str(number1 / number2))
+print("modulus " + str(number1 % number2))
