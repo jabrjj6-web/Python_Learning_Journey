@@ -1,7 +1,7 @@
-fruits = ["apple", "banana", "orenge"]
+print("--- Python List Display Demo ---\n")
 
-print("Before", fruits)
+# تعريف قائمة الفواكه بالتهجئة الإنجليزية الصحيحة
+fruits = ["apple", "banana", "orange"]
 
-fruits.remove("apple")
-
-print("after ", fruits)
+# طباعة محتويات القائمة بالكامل باستخدام f-string
+print(f"My Fruit List: {fruits}")
