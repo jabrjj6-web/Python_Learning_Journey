@@ -1,10 +1,14 @@
-print("| welcome to calculator |\n ")
-number1 = float(input("first numbr : "))
-number2 = float(input("secnd numbr : "))
-print("| ---------------------- |")
+print("| Welcome to Calculator |\n")
 
-print("Addin " + str(number1 + number2))
-print("sudtract " + str(number1 - number2))
-print("multiply " + str(number1 * number2))
-print("divide " + str(number1 / number2))
-print("modulus " + str(number1 % number2))
+# استقبال الأرقام بشكل نظيف
+number1 = float(input("First number: "))
+number2 = float(input("Second number: "))
+
+print("| --------------------- |")
+
+# طباعة العمليات باستخدام الـ f-string الاحترافية بدون تعقيد str()
+print(f"Addition:       {number1 + number2}")
+print(f"Subtraction:    {number1 - number2}")
+print(f"Multiplication: {number1 * number2}")
+print(f"Division:       {number1 / number2}")
+print(f"Modulus:        {number1 % number2}")
