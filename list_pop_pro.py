@@ -1,14 +1,13 @@
-# list : القائمة
-# tools :
-# append() : في الاخير
-# insetr
-# remove()
-# del : index
-# pop :
-fruits = ["apple","banana","orenge"]
+print("--- List Append Element Demo ---\n")
 
-print("Before",fruits)
+# قائمة الفواكه مكتوبة بالتهجئة الصحيحة
+fruits = ["apple", "banana", "orange"]
 
-fruits.pop(2)
+# طباعة القائمة قبل الإضافة باستخدام f-string
+print(f"Original List: {fruits}")
 
-print("after ", fruits)
+# إضافة عنصر جديد (إسبريسو) إلى نهاية القائمة
+fruits.append("Espresso")
+
+# طباعة القائمة بعد الإضافة
+print(f"Updated List:  {fruits}")
