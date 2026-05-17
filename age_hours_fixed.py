@@ -1,8 +1,10 @@
-print("---Age in hours calculator---")
+print("--- Age in Hours Calculator ---")
 
-age_days = input("enter your age in days : ")
-age_days = int(age_days)
+# دمجنا الإدخال والتحويل في سطر واحد واحترافي
+age_days = int(input("Enter your age in days: "))
 
+# حساب الساعات
 age_hours = age_days * 24
 
-print(f"you have lived for {age_hours} hours.")
+# طباعة النتيجة مع تنظيم الحروف الكبيرة في النص
+print(f"You have lived for {age_hours:,} hours.")
