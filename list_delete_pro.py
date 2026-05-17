@@ -1,7 +1,13 @@
-fruits = ["apple", "banana", "orenge"]
+print("--- List Element Deletion Demo ---\n")
 
-print("Before", fruits)
+# قائمة الفواكه مكتوبة بتهجئة صحيحة
+fruits = ["apple", "banana", "orange"]
 
+# طباعة القائمة قبل الحذف باستخدام f-string
+print(f"Original List: {fruits}")
+
+# حذف العنصر الثالث (Index 2) وهو orange
 del fruits[2]
 
-print("after ", fruits)
+# طباعة القائمة بعد التعديل
+print(f"Updated List:  {fruits}")
