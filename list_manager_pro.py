@@ -1,7 +1,10 @@
-fruits = ["apple", "banana", "orenge"]
+print("--- Registered Names List ---\n")
 
-print("Before", fruits)
+# قائمة الأسماء مكتوبة بشكل إملائي صحيح وأنيق
+names = ["Khaled", "Hasan", "Jabr"]
 
-fruits.append("kiwi")
+# طباعة القائمة كاملة
+print(f"All Names: {names}")
 
-print("after ", fruits)
+# إضافة لمسة ذكية لطباعة عدد العناصر داخل القائمة
+print(f"Total Number of Names: {len(names)}")
