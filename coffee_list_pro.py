@@ -1,7 +1,11 @@
-coffee = ["blak", "drink", "v60"]
+# إنشاء قائمة أنواع القهوة
+coffee = ["Black Coffee", "Latte", "V60"]
 
-print("befolt", coffee)
+# طباعة القائمة قبل التعديل
+print("Before adjustment:", coffee)
 
-coffee[1]="esbriso"
+# تعديل العنصر الثاني (الاندكس 1) إلى إسبريسو
+coffee[1] = "Espresso"
 
-print("after", coffee)
+# طباعة القائمة بعد التعديل
+print("After adjustment:", coffee)
