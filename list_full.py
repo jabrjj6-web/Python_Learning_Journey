@@ -1,3 +1,13 @@
-list1 = ["Ahmed", 50, "adel", 20]
+print("--- List Element Modification Demo ---\n")
 
-print("list1 is", list1)
+# قائمة الفواكه مكتوبة بتهجئة صحيحة
+fruits = ["apple", "banana", "orange"]
+
+# طباعة القائمة قبل التعديل باستخدام f-string
+print(f"Original List: {fruits}")
+
+# تعديل العنصر الثاني (Index 1) إلى Espresso
+fruits[1] = "Espresso"
+
+# طباعة القائمة بعد التعديل
+print(f"Updated List:  {fruits}")
