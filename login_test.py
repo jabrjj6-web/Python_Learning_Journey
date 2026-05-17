@@ -1,11 +1,13 @@
-username = input("Enter your username : ")
-pasuerd = input("Enter your pasuerd : ")
+print("--- Secure Login System ---")
 
-if username == "Ahmed" and pasuerd == "1234":
-    print("Loing in username and pasuerd oky ")
+# استقبال مدخلات المستخدم
+username = input("Username: ")
+password = input("Password: ")
 
-elif username == "Ahmed" or pasuerd == "1234":
-    print("Loing in username and pasuerd oky")
+print("--------------------------")
 
+# التحقق من البيانات (مع تصحيح إملاء المتغيرات)
+if username == "jabr" and password == "12345":
+    print("Welcome back, Jabr! Login successful. 🎉")
 else:
-    print("sorry")
+    print("Access Denied: Incorrect username or password. ❌")
