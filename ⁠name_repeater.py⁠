@@ -1,0 +1,11 @@
+print("--- 👤 Name Repeater Loop 👤 ---")
+
+i = 1
+
+# حلقة تكرارية لطباعة الاسم 6 مرات بشكل منظم
+while i <= 6:
+    print(f"Repetition No.{i} -> Welcome, Jaber! 👋")
+    i += 1
+
+print("----------------------------------")
+print("Program finished successfully. welcme! 🎉")

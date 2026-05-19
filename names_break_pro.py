@@ -1,13 +1,7 @@
-print("--- User Search System (Break Demo) ---\n")
+names = ["Ahmed","adel","jabr","hassen"]
 
-# قائمة الأسماء مكتوبة بتهجئة صحيحة وتبدأ بحروف كبيرة
-names = ["Ahmed", "Adel", "Jabr", "Hassan"]
-
-# حلقة تكرار للبحث عن اسم محدد
-for name in names:
-    if name == "Jabr":
-        print(f"-> Target found: [ {name} ]! Stopping the search.")
+for name in names :
+    if name == "jabr":
+        print("yes break the jabr")
         break
-    print(f"Checking: {name}")
-
-print("\nSearch process finished.")
+    print(name)
