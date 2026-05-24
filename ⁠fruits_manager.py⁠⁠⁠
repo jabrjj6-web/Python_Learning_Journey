@@ -1,0 +1,12 @@
+print("--- 🍎 Fruits Management System 🍌 ---")
+
+# إنشاء القائمة الإبتدائية
+fruits = ["apple", "banana", "orange"]
+print("List Before modification:", fruits)
+
+# إضافة عنصر جديد للقائمة
+fruits.append("kiwi")
+
+print("----------------------------------")
+# طباعة القائمة بعد التعديل
+print("List After modification:", fruits, "✨")
